@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #f8f4ed;
+  --paper: #fffdf9;
+  --espresso: #2c211c;
+  --brown: #6f4b3e;
+  --terracotta: #b86f52;
+  --sage: #87947d;
+  --muted: #8c8179;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--espresso);
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-display {
+  font-family: "Playfair Display", serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
