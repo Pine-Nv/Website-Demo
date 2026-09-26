@@ -11,6 +11,7 @@ function Home() {
       <Navbar />
 
       <main>
+        <p>YOoo Yooo</p>
         <Hero />
         <CategorySection />
         <FeaturedRecipes />
