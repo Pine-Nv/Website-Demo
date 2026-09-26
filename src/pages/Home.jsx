@@ -10,7 +10,8 @@ function Home() {
 
       <Navbar />
 
-      <main>
+      <main> 
+        <p>yoo</p>
         <Hero />
         <CategorySection />
         <FeaturedRecipes />
